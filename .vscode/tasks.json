@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build OpenGL Program",
+      "type": "shell",
+      "command": "C:/msys64/ucrt64/bin/gcc.exe",
+      "args": [
+        "main.c",
+        "vectors.c",
+        "camera.c",
+        "collisionAABB.c", 
+        "playerUI.c",
+        "sound.c",
+        "hitscan.c",
+        "maps.c",
+        "weapons.c",
+        "model.c",            
+        "-o", "main.exe",
+        "-I", "C:/msys64/ucrt64/include",
+        "-L", "C:/msys64/ucrt64/lib",
+        "-lglfw3",
+        "-lglew32",
+        "-lopengl32",
+        "-lglu32",
+        "-lgdi32",
+        "-lfreeglut",
+        "-lopenal",                        
+        "-lalut", 
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

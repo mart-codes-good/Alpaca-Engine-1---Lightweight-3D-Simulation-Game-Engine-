@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "glut.h": "c",
+        "stdbool.h": "c",
+        "camera.h": "c",
+        "collisionaabb.h": "c",
+        "hitscan.h": "c",
+        "al.h": "c",
+        "stdio.h": "c",
+        "glu.h": "c",
+        "freeglut.h": "c",
+        "glew.h": "c",
+        "sound.h": "c",
+        "glfw3.h": "c",
+        "weapons.h": "c",
+        "gl.h": "c"
+    }
+}
