@@ -84,6 +84,6 @@ These are the next few features we are building. Due to a busy schedule, it may 
 * Complete items implementation
 * Debugging and optimizing 
 
-## Attributions 
+## Contributors
 * Martin (mart-codes-good)
 * Cathy (zcxu-4444)
