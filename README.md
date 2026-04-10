@@ -79,6 +79,7 @@ These are the next few features we are building. Due to a busy schedule, it may 
 * Basic Textures
 * Debug Audio Issues
 * Complete items implementation
+* Debugging and optimizing 
 
 ## Attributions 
 * Martin (mart-codes-good)
